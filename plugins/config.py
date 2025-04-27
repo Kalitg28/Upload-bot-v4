@@ -47,10 +47,10 @@ class Config(object):
     TRUE_OR_FALSE = os.environ.get("TRUE_OR_FALSE", "").lower() == "true"
 
     # Shortlink settings
-    SHORT_DOMAIN = environ.get("SHORT_DOMAIN", "modijiurl.com")
-    SHORT_API = environ.get("SHORT_API", "fe23807ec922f660e8b6040140cf08da97c23015")
+    SHORT_DOMAIN = environ.get("SHORT_DOMAIN", "")
+    SHORT_API = environ.get("SHORT_API", "")
 
     # Verification video link
-    VERIFICATION = os.environ.get("VERIFICATION", "https://youtube.com/@indian_mv?si=JnFTYGzpocxasMyW")
+    VERIFICATION = os.environ.get("VERIFICATION", "")
 
     

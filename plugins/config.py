@@ -51,6 +51,6 @@ class Config(object):
     SHORT_API = environ.get("SHORT_API", "fe23807ec922f660e8b6040140cf08da97c23015")
 
     # Verification video link
-    VERIFICATION = os.environ.get("VERIFICATION", "https://t.me/Indian_MV/4")
+    VERIFICATION = os.environ.get("VERIFICATION", "https://youtube.com/@indian_mv?si=JnFTYGzpocxasMyW")
 
     
